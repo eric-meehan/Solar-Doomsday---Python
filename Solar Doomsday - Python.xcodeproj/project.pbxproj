@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0714DBB4256D924A007B4068 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0714DBB3256D924A007B4068 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		0714DBAE256D924A007B4068 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		0714DBB0256D924A007B4068 /* Solar Doomsday - Python */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solar Doomsday - Python"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0714DBB3256D924A007B4068 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0714DBBC256D926C007B4068 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0714DBBE256D928F007B4068 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +54,8 @@
 		0714DBB2256D924A007B4068 /* Solar Doomsday - Python */ = {
 			isa = PBXGroup;
 			children = (
-				0714DBB3256D924A007B4068 /* main.cpp */,
+				0714DBBC256D926C007B4068 /* README.md */,
+				0714DBBE256D928F007B4068 /* main.py */,
 			);
 			path = "Solar Doomsday - Python";
 			sourceTree = "<group>";
@@ -118,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0714DBB4256D924A007B4068 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
