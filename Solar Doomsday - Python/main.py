@@ -6,10 +6,19 @@ Solar Doomsday
 """
 
 import math
+import sys
 
 def main():
-    # Save the total area of the solar material
-    TotalArea = 15324
+    # The user may specify the TotalArea through command line arguments
+    if len(sys.argv) > 1:
+        try:
+            TotalArea = int(sys.argv[1])
+        except:
+            print("Invalid input - using the default area of 15324")
+            TotalArea = 15324
+    # Alternatively, the default area will be 15324
+    else:
+        TotalArea = 15324
     # An empty array to store the size of each panel
     Results = []
     # Generate new panels until there is no more material left
